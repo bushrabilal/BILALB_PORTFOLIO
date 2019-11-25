@@ -33,10 +33,20 @@
     transform: translate3d(100%, 0, 0);
 
     .portrait {
-      background: url("../img/portrait_small.jpg");
+      background: url("../img/portrait small.jpg");
       width: 150px;
       height: 150px;
     }
+  }
+  .about-info {
+    //through grid-template-areas simply map out what you want and where you want;
+    grid-template-areas:
+      "bioimage"
+      "bio"
+      "job1"
+      "job2"
+      "job3";
+    grid-template-columns: 1fr;
   }
 }
 //for smart phones
