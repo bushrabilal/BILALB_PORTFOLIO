@@ -69,6 +69,8 @@
     &.show {
       //slide in from top
       transform: translate3d(0, 0, 0);
+
+      
     }
   }
   //branding side
@@ -81,6 +83,13 @@
       //slide in from bottom
       transform: translate3d(0, 0, 0);
     }
+    
+
+
+
+
+
+
   }
   .nav-navItem {
     transform: translate3d(600px, 0, 0);
