@@ -1,5 +1,6 @@
 @import "config";
 @import "menu";
+@import "mobile";
 
 * {
   box-sizing: border-box;
@@ -176,4 +177,4 @@ main {
   //to create sticky footer we need to call a funtion in mainwhich will subtract that 60px of footer area
 }
 //for mobile version
-@import "mobile";
+//@import "mobile";
