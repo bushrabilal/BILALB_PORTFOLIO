@@ -61,7 +61,7 @@ body {
   line-height: 1.5;
 }
 body#bg-img {
-  background: url(../img/unnamed.jpg);
+  background: url(dist/img/portrait.jpg);
   background-attachment: fixed;
   background-size: cover;
 }
